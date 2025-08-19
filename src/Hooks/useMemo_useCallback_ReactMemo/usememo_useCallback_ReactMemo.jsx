@@ -1,5 +1,5 @@
 import React, { useState, useCallback, useMemo } from "react";
-import ChildMix from "./child"; 
+import ChildMix from "./childMix"; 
 
 export default function UseCallback_UseMemo_ReactMemo() {
   const [count, setCount] = useState(0);
